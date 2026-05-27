@@ -1,0 +1,22 @@
+{
+  "name": "x402-caw-agent",
+  "version": "1.0.0",
+  "description": "AI Agent with x402 Protocol and Cobo CAW Pact Integration",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "ethers": "^6.9.0",
+    "node-cron": "^3.0.3",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["x402", "cobo", "caw", "agent", "payment", "blockchain"],
+  "author": "AI Agent Developer",
+  "license": "MIT"
+}
